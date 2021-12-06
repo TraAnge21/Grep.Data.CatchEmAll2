@@ -10,38 +10,50 @@ grep "ivys" filescan_00.3
 grep "jigg" filescan_00.3
 grep "meow" filescan_00.3
 grep "pika" filescan_00.3
+grep "psyd" filescan_00.4
+grep "squi" filescan_00.4
+grep "venu" filescan_00.4
+grep "wart" filescan_00.4
 
 
 
 ### b)
 
-
+see in captured files (all .txt files)
 
 
 
 ### c)
-
-
-
-
-
-
-
-
-
+The pokemon is found in filescan_00.1
+It is : "beedrill".
 
 
 
 
 # Part 2
 ### a)
-
+a) How many pokemon are there? Show your grep that you used to get to that number.
+SELECT MAX(id) FROM Pokemon;
 
 
 
 
 
 ### b)
+ Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
+
+grep -c   "beed"    beedrill.txt
+grep -c  "blast"  blastoise.txt
+grep -c  "butt" butterfree.txt
+grep -c  "char"  charizard.txt
+grep -c  "ivysaur"    ivysaur.txt
+grep -c  "jigglypuff" jigglypuff.txt
+grep -c  "meowth"  meowth.txt
+grep -c  "pikaduck" pikaduck.txt
+grep -c  "squirtle" squirtle.txt
+grep -c  "venusaur" venusaur.txt
+grep -c  "wartortle" wartortle.txt
+
 
 
 
