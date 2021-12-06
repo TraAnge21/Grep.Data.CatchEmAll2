@@ -1,8 +1,15 @@
 # Part 1
 ### a)
+All commands on the terminal :
 grep "beed" filescan_00.1
 grep "blas" filescan_00.1
 grep "bulb" filescan_00.1
+grep "butt" filescan_00.1
+grep "char" filescan_00.2
+grep "ivys" filescan_00.3
+grep "jigg" filescan_00.3
+grep "meow" filescan_00.3
+grep "pika" filescan_00.3
 
 
 
