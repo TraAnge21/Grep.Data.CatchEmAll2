@@ -38,12 +38,13 @@ SELECT MAX(id) FROM Pokemon;
 
 
 
-
 ### b)
- Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
+Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
 
+
+// Count the number of lines for each textfile
 grep -c   "beed"    beedrill.txt
-grep -c  "blast"  blastoise.txt
+grep -c  "blas"  blastoise.txt
 grep -c  "butt" butterfree.txt
 grep -c  "char"  charizard.txt
 grep -c  "ivysaur"    ivysaur.txt
@@ -55,7 +56,10 @@ grep -c  "venusaur" venusaur.txt
 grep -c  "wartortle" wartortle.txt
 
 
+// order by
 
+SELECT * FROM Pokemon
+ORDER BY length DESC;
 
 
 
